@@ -1,0 +1,488 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DNRD_Service</name>
+    </assembly>
+    <members>
+        <member name="T:CommonPaymentWebService.OnlinePaymentResultModel">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.OnlinePaymentResultModel.batchNbr">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.OnlinePaymentResultModel.capPaymentResultModels">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.OnlinePaymentResultModel.entityPaymentResultModels">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.OnlinePaymentResultModel.exceptionMsg">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.OnlinePaymentResultModel.paramString">
+            <remarks/>
+        </member>
+        <member name="T:CommonPaymentWebService.CapPaymentResultModel">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.CapPaymentResultModel.actionSource">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.CapPaymentResultModel.capID">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.CapPaymentResultModel.hasFee">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.CapPaymentResultModel.moduleName">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.CapPaymentResultModel.paramString">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.CapPaymentResultModel.paymentModel">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.CapPaymentResultModel.paymentStatus">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.CapPaymentResultModel.receiptNbr">
+            <remarks/>
+        </member>
+        <member name="T:CommonPaymentWebService.CapIDModel">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.CapIDModel.customID">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.CapIDModel.ID1">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.CapIDModel.ID2">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.CapIDModel.ID3">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.CapIDModel.serviceProviderCode">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.CapIDModel.trackingID">
+            <remarks/>
+        </member>
+        <member name="T:CommonPaymentWebService.transactionDetailModel">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.transactionDetailModel.actionSource">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.transactionDetailModel.auditDate">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.transactionDetailModel.auditDateSpecified">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.transactionDetailModel.auditID">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.transactionDetailModel.auditStatus">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.transactionDetailModel.batchTransactionNbr">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.transactionDetailModel.batchTransactionNbrSpecified">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.transactionDetailModel.entityID">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.transactionDetailModel.entitySeqNbr">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.transactionDetailModel.entitySeqNbrSpecified">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.transactionDetailModel.entityServiceProviderCode">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.transactionDetailModel.entityType">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.transactionDetailModel.moduleName">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.transactionDetailModel.paymentMessage">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.transactionDetailModel.serviceProviderCode">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.transactionDetailModel.status">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.transactionDetailModel.totalFee">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.transactionDetailModel.totalFeeSpecified">
+            <remarks/>
+        </member>
+        <member name="T:CommonPaymentWebService.TransactionModel">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.accountNumber">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.actionSource">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.auditDate">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.auditID">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.auditStatus">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.authCode">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.batchTransCode">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.CCHolderName">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.CCNumber">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.CCType">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.clientNumber">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.convFeeTransCode">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.convenienceFee">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.convenienceFeeSpecified">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.customBatchTransCode">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.endDate">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.entityID">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.entityType">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.exportDate">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.exportFileName">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.feeType">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.gateWayTransactionID">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.gatewayTransTtatus">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.inHandlerFlag">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.isExported">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.moduleName">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.paymentMessage">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.procRespMsg">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.procResult">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.procTransID">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.procTransType">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.procZipResp">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.provider">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.receiptNbr">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.receiptNbrSpecified">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.serviceProviderCode">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.startDate">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.status">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.terminalID">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.totalFee">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.transDetailModel">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.transType">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.transactionNumber">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.TransactionModel.workstationID">
+            <remarks/>
+        </member>
+        <member name="T:CommonPaymentWebService.EntityPaymentResultModel">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.EntityPaymentResultModel.actionSource">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.EntityPaymentResultModel.entityID">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.EntityPaymentResultModel.entityType">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.EntityPaymentResultModel.errorCode">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.EntityPaymentResultModel.paidAmount">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.EntityPaymentResultModel.paramString">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.EntityPaymentResultModel.receiptNbr">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.EntityPaymentResultModel.success">
+            <remarks/>
+        </member>
+        <member name="T:CommonPaymentWebService.PaymentBaseModel">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.acctID">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.amountNotAllocated">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.auditDate">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.auditID">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.auditStatus">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.CCAuthCode">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.capID">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.cardHolderName">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.cashierID">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.ccExpDate">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.ccType">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.changeDue">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.officeCode">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.payee">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.payeeAddress">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.payeeId">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.payeePhone">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.payeePhoneCountryCode">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.payeeType">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.paymentAmount">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.paymentChange">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.paymentComment">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.paymentDate">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.paymentMethod">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.paymentRefNbr">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.paymentSeqNbr">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.paymentStatus">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.reason">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.receiptCustomizedNBR">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.receiptNbr">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.receivedType">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.registerNbr">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.sessionNbr">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.terminalID">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.totalInvoiceAmount">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.totalPaidAmount">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.tranCode">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.tranNbr">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.transferCapID">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.udf1">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.udf2">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.udf3">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.udf4">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentBaseModel.workstationID">
+            <remarks/>
+        </member>
+        <member name="T:CommonPaymentWebService.PaymentModel">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentModel.bankName">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentModel.batchTransCode">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentModel.ccAuthCode">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentModel.ccHolderName">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentModel.checkNbr">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentModel.checkType">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentModel.city">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentModel.country">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentModel.email">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentModel.licenseNbr">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentModel.module">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentModel.name">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentModel.paymentMethodGroupNbr">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentModel.phoneNbr">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentModel.posTransSeq">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentModel.processingFee">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentModel.state">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentModel.street">
+            <remarks/>
+        </member>
+        <member name="P:CommonPaymentWebService.PaymentModel.zip">
+            <remarks/>
+        </member>
+    </members>
+</doc>
