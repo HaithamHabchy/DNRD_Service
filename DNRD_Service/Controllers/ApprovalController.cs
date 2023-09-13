@@ -51,7 +51,7 @@ namespace DNRD_Service.Controllers
                         }
                         return Unauthorized(responseModel);
                     default:
-                        _logger.LogError("EXCEPTION:" + responseModel.ErrorMessage);
+                        _logger.LogError("EXCEPTION:" + ex.Message);
                         return new StatusCodeResult(StatusCodes.Status500InternalServerError);
                 }
             }

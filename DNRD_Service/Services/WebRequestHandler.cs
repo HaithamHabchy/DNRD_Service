@@ -55,7 +55,7 @@ namespace DNRD_Service.Services
                     request.ContentType = contentType;
                 request.ContentLength = data.Length;
                 request.AllowAutoRedirect = false;
-                request.Timeout = 300000;
+                request.Timeout = 10800000;
 
                 // Headers
                 if (headers != null)

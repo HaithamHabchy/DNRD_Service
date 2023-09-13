@@ -211,7 +211,7 @@ namespace DNRD_Service.Services
                 _logger.LogInformation("Calling executeContactAction...");
                 var response = _accelaRestService.CallAdapterScript<dynamic>(request, token);
                 responseModel = JsonConvert.DeserializeObject<ApprovalResponseModel>(response.result);
-                _logger.LogInformation("Accela Script for executeContactAction:" + response.message);
+                //_logger.LogInformation("Accela Script for executeContactAction:" + response.message);
 
                 if (!response.success)
                 {
@@ -235,7 +235,15 @@ namespace DNRD_Service.Services
                     }
                     else
                     {
-                        throw new Exception();
+                        if (response.message != null)
+                        {
+                            throw new Exception(response.message);
+                        }
+                        else
+                        {
+                            throw new Exception();
+                        }
+
                     }
                 }
                 else
@@ -279,7 +287,7 @@ namespace DNRD_Service.Services
                             }
 
                             responseModel.TransactionKey = approvalRequestModel.TransactionKey;
-                            _logger.LogInformation("Accela Script for executeEventAction:" + response.message);
+                            //_logger.LogInformation("Accela Script for executeEventAction:" + response.message);
                             if (responseModel.ErrorCode != null)
                             {
                                 var exception = new HANDLED_EXCEPTION();

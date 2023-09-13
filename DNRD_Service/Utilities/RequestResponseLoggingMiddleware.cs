@@ -33,7 +33,7 @@ namespace DNRD_Service.Utilities
 
         public async Task Invoke(HttpContext context)
         {
-            await LogRequest(context);
+            //await LogRequest(context);
             await LogResponse(context);
         }
         private async Task LogRequest(HttpContext context)
